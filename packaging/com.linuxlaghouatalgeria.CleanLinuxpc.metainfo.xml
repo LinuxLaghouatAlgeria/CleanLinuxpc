@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.linuxlaghouatalgeria.CleanLinuxpc</id>
+  
+  <name>Clean Linux</name>
+  <name xml:lang="ar">تنظيف لينكس</name>
+  
+  <summary>System cleaner and optimizer</summary>
+  <summary xml:lang="ar">أداة لتنظيف وتحسين أداء النظام</summary>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  
+  <description>
+    <p>
+      Clean Linux is a powerful system cleaner designed to free up space and protect your privacy.
+      It helps you remove unnecessary files, browser caches, and old package versions.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Clean APT, Flatpak, and Snap caches</li>
+      <li>Remove browser data (Firefox &amp; Chrome) - safely separated into cache and session data</li>
+      <li>Visualize disk usage with a real-time indicator</li>
+      <li>Simple and easy-to-use interface supporting Arabic and English</li>
+    </ul>
+    <p xml:lang="ar">
+      تطبيق "تنظيف لينكس" هو أداة قوية مصممة لتحرير المساحة وحماية خصوصيتك.
+      يساعدك البرنامج على حذف الملفات غير الضرورية، مخلفات المتصفح، وإصدارات الحزم القديمة.
+    </p>
+    <p xml:lang="ar">الميزات:</p>
+    <ul xml:lang="ar">
+      <li>تنظيف مخلفات APT و Flatpak و Snap</li>
+      <li>حذف بيانات المتصفحات (Firefox و Chrome) - مع فصل آمن بين الكاش والبيانات الحساسة</li>
+      <li>عرض حالة القرص بمؤشر مرئي مباشر</li>
+      <li>واجهة بسيطة وسهلة الاستخدام تدعم العربية والإنجليزية</li>
+    </ul>
+  </description>
+  
+  <launchable type="desktop-id">com.linuxlaghouatalgeria.CleanLinuxpc.desktop</launchable>
+  
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window showing cleaning options</caption>
+      <caption xml:lang="ar">النافذة الرئيسية تعرض خيارات التنظيف</caption>
+      <!-- Placeholder URL, Flathub requires a real URL usually -->
+      <image>https://raw.githubusercontent.com/linuxlaghouatalgeria/CleanLinuxpc/main/screenshots/main.png</image>
+    </screenshot>
+  </screenshots>
+  
+  <url type="homepage">https://github.com/linuxlaghouatalgeria/CleanLinuxpc</url>
+  <url type="bugtracker">https://github.com/linuxlaghouatalgeria/CleanLinuxpc/issues</url>
+  
+  <content_rating type="oars-1.1"/>
+  
+  <releases>
+    <release version="1.0.0" date="2025-12-24">
+      <description>
+        <p>First release of Clean Linux.</p>
+        <ul>
+          <li>Initial release with full cleaning support for APT, Flatpak, and Snap.</li>
+          <li>Browser cleaning support.</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

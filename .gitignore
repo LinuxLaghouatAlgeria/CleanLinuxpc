@@ -1,0 +1,29 @@
+# Build directories
+build/
+flatpak_build/
+.flatpak-builder/
+
+# Temporary files
+*.o
+*.obj
+*.moc
+*.ui_
+Makefile
+rules.ninja
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+
+# Qt Creator / IDE files
+*.user
+*.user.*
+.vscode/
+.idea/
+
+# Local cache
+.DS_Store
+Thumbs.db
+
+# Flatpak generated repo
+repo/
+.flatpak-info
