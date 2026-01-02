@@ -27,3 +27,4 @@ Thumbs.db
 # Flatpak generated repo
 repo/
 .flatpak-info
+raw_boot_log.txt
