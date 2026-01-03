@@ -6,6 +6,9 @@ Clean Linux is a powerful and secure system cleaner for Linux, designed to free 
 
 ![Clean Linux Icon](packaging/icons/com.linuxlaghouatalgeria.CleanLinuxpc.png)
 
+[![شاهد الفيديو التوضيحي](assets/screenshots/02.png)](https://linuxlaghouatalgeria.github.io/CleanLinuxpc/assets/CleanLinuxpc.mp4)
+
+
 ## 🌟 Features | الميزات
 
    System Cleaning | تنظيف النظام:
