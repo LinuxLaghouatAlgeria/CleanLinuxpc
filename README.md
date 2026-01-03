@@ -45,7 +45,4 @@ Developed by linuxlaghouatalgeria.
 
 GPL-3.0-or-later
 # CleanLinuxpc
-فيديو توضيحي عن التطبيق
-<video src="assets/CleanLinuxpc.mp4" width="100%" controls>
-  متصفحك لا يدعم تشغيل الفيديو، يمكنك تحميله من المجلد.
-</video>
+[📺 شاهد الفيديو التوضيحي للتطبيق](https://linuxlaghouatalgeria.github.io/CleanLinuxpc/)
