@@ -46,6 +46,6 @@ Developed by linuxlaghouatalgeria.
 GPL-3.0-or-later
 # CleanLinuxpc
 فيديو توضيحي عن التطبيق
-<video src="https://github.com/LinuxLaghouatAlgeria/CleanLinuxpc/blob/main/assets/CleanLinuxpc.mp4" width="100%" controls>
+<video src="https://github.com/LinuxLaghouatAlgeria/CleanLinuxpc/raw/main/assets/CleanLinuxpc.mp4" width="100%" controls>
   متصفحك لا يدعم تشغيل الفيديو، يمكنك تحميله من المجلد.
 </video>
