@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>CleanLinuxpc</title>
+ <!-- ===== SEO BASIC ===== -->
+<meta name="description" content="CleanLinuxpc هو مشروع لينكس نظيف وخفيف، موجه للمستخدمين الجدد، سريع وآمن، ويعمل بكفاءة على الأجهزة الضعيفة.">
+<meta name="keywords" content="CleanLinuxpc, Linux خفيف, نظام لينكس نظيف, Lightweight Linux, Linux للمبتدئين, Linux Algeria, Linux Laghouat">
+<meta name="author" content="Linux Laghouat Algeria">
+<meta name="robots" content="index, follow">
+<meta name="language" content="Arabic, English">
+
+<!-- ===== GEO TARGETING ===== -->
+<meta name="geo.region" content="DZ">
+<meta name="geo.placename" content="Laghouat, Algeria">
+
+<!-- ===== OPEN GRAPH (Facebook / WhatsApp / Telegram) ===== -->
+<meta property="og:title" content="CleanLinuxpc – نظام لينكس نظيف وخفيف">
+<meta property="og:description" content="مشروع لينكس بسيط وسريع موجه للمستخدمين الجدد ويعمل بكفاءة على الأجهزة الضعيفة.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://linuxlaghouatalgeria.github.io/CleanLinuxpc/">
+<meta property="og:site_name" content="CleanLinuxpc">
+
+<!-- ===== TWITTER / X ===== -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CleanLinuxpc – Clean & Lightweight Linux">
+<meta name="twitter:description" content="A clean, lightweight Linux project for beginners and low-end devices.">
+
+<!-- ===== CANONICAL ===== -->
+<link rel="canonical" href="https://linuxlaghouatalgeria.github.io/CleanLinuxpc/">
+
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: radial-gradient(circle at top, #0f2027, #000);
+      color: #fff;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      padding: 70px 20px 40px;
+      text-align: center;
+      animation: fadeIn 1s ease;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      opacity: 0.85;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .cta {
+      margin-top: 30px;
+    }
+
+    .cta a {
+      display: inline-block;
+      padding: 14px 28px;
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: bold;
+      transition: 0.3s;
+      box-shadow: 0 10px 30px rgba(0,114,255,0.5);
+    }
+
+    .cta a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 20px 40px rgba(0,114,255,0.7);
+    }
+
+    /* ===== VIDEO ===== */
+    .video-wrap {
+      max-width: 900px;
+      margin: 40px auto;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 30px 60px rgba(0,0,0,0.7);
+      animation: float 6s ease-in-out infinite;
+    }
+
+    video {
+      width: 100%;
+      display: block;
+      background: black;
+    }
+
+    /* ===== CONTENT ===== */
+    .content {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .feature {
+      background: rgba(255,255,255,0.05);
+      border-radius: 16px;
+      padding: 25px;
+      transition: 0.3s;
+    }
+
+    .feature:hover {
+      background: rgba(255,255,255,0.1);
+      transform: translateY(-6px);
+    }
+
+    .feature i {
+      font-size: 34px;
+      color: #00c6ff;
+      margin-bottom: 10px;
+    }
+
+    /* ===== SOCIAL ===== */
+    .social-section {
+      text-align: center;
+      padding: 40px 20px 10px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 30px;
+      margin-top: 15px;
+    }
+
+    .social-icons a {
+      color: #fff;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #00c6ff;
+      transform: scale(1.2);
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      padding: 30px;
+      text-align: center;
+      opacity: 0.6;
+      font-size: 14px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: none; }
+    }
+
+    @keyframes float {
+      0%,100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    /* ===== MOBILE ===== */
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 28px; }
+      .hero p { font-size: 15px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>CleanLinuxpc</h1>
+  <p>
+    نظام لينكس نظيف، سريع، ومصمم لتجربة استخدام حديثة وبسيطة
+  </p>
+  <div class="cta">
+    <a href="#video">شاهد العرض</a>
+  </div>
+</div>
+
+<!-- VIDEO -->
+<div id="video" class="video-wrap">
+  <video
+    src="assets/CleanLinuxpc.mp4"
+    autoplay
+    muted
+    loop
+    playsinline
+    controls>
+  </video>
+</div>
+
+<!-- FEATURES -->
+<div class="content">
+  <h2>لماذا CleanLinuxpc؟</h2>
+  <div class="features">
+    <div class="feature">
+      <i class="fas fa-bolt"></i>
+      <h3>سريع</h3>
+      <p>أداء خفيف حتى على الأجهزة الضعيفة</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-feather"></i>
+      <h3>خفيف</h3>
+      <p>استهلاك موارد منخفض</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-lock"></i>
+      <h3>آمن</h3>
+      <p>لينكس مستقر وآمن للاستخدام اليومي</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-heart"></i>
+      <h3>سهل</h3>
+      <p>مناسب للمبتدئين</p>
+    </div>
+  </div>
+</div>
+
+<!-- SOCIAL -->
+<div class="social-section">
+  <h2>الموقع الرسمي</h2>
+  <div class="social-icons">
+    <a href="https://linuxlaghouat.blogspot.com/" target="_blank" title="blog">
+      <i class="fas fa-globe"></i>
+    </a>
+    <a href="https://github.com/LinuxLaghouatAlgeria" target="_blank" title="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.youtube.com/@LinuxLaghouatAlgeria" target="_blank" title="YouTube">
+      <i class="fab fa-youtube"></i>
+    </a>
+    <a href="facebook.com/LinuxLaghouatAlgeria" target="_blank" title="Facebook">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="x.com/linuxlaghouat" target="_blank" title="X">
+      <i class="fab fa-x-twitter"></i>
+    </a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  © 2025 CleanLinuxpc – Linux Laghouat Algeria
+</footer>
+
+</body>
+</html>
