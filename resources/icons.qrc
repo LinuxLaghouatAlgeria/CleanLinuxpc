@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/cleanlinux.png</file>
+        <file>icons/analyze.png</file>
+        <file>icons/clean.png</file>
+        <file>icons/settings.png</file>
+    </qresource>
+</RCC>

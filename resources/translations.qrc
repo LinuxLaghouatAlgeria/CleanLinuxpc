@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/translations">
+        <file alias="cleanlinux_ar.qm">translations/cleanlinux_ar.qm</file>
+        <file alias="cleanlinux_en.qm">translations/cleanlinux_en.qm</file>
+    </qresource>
+</RCC>

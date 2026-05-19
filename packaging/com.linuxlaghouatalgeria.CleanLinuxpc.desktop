@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Clean Linux
+Name[ar]=تنظيف لينكس
+Comment=System cleaner and optimizer
+Comment[ar]=أداة تنظيف وتحسين النظام
+Exec=CleanLinuxpc
+Icon=com.linuxlaghouatalgeria.CleanLinuxpc
+Terminal=false
+Categories=Utility;System;
+Keywords=cleaner;optimizer;system;
