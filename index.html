@@ -178,6 +178,35 @@
       50% { transform: translateY(-10px); }
     }
 
+    /* ===== DOWNLOAD ===== */
+    .download-section {
+      padding: 60px 20px 20px;
+    }
+
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 40px;
+      background: linear-gradient(90deg, #00c851, #007e33);
+      color: #fff;
+      font-size: 22px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: 0.3s;
+      box-shadow: 0 10px 30px rgba(0,200,80,0.5);
+    }
+
+    .download-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 20px 40px rgba(0,200,80,0.7);
+    }
+
+    .download-btn i {
+      font-size: 26px;
+    }
+
     /* ===== MOBILE ===== */
     @media (max-width: 600px) {
       .hero h1 { font-size: 28px; }
@@ -236,6 +265,15 @@
       <p>مناسب للمبتدئين</p>
     </div>
   </div>
+</div>
+
+<!-- DOWNLOAD -->
+<div class="content download-section" id="download">
+  <h2>تحميل CleanLinuxpc</h2>
+  <p style="margin-bottom:20px;opacity:0.8;">احصل على النسخة الأخيرة الآن</p>
+  <a href="https://github.com/LinuxLaghouatAlgeria/CleanLinuxpc/releases" target="_blank" class="download-btn">
+    <i class="fas fa-download"></i> تحميل
+  </a>
 </div>
 
 <!-- SOCIAL -->
